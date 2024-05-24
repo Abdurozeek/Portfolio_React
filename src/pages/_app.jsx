@@ -1,7 +1,8 @@
 import "@/scss/globals.css";
 import "@/scss/index.scss";
-import type { AppProps } from "next/app";
+import { AppProps } from "next/app";
 import { Raleway, Fira_Code } from "next/font/google";
+import React from "react";
 
 const raleway = Raleway({ subsets: ["latin"] });
 const firaCode = Fira_Code({
